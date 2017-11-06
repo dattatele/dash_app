@@ -1,0 +1,5 @@
+dash-app
+venv
+*.pyc
+.DS_Store
+.env
