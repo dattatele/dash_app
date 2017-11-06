@@ -19,7 +19,7 @@ import dash_html_components as html
 import dash_table_experiments as dt
 
 
-travel = pd.read_excel('http://dattatele.github.io/url_data/data/Date_brazil.xlsx', index_col='Date')
+travel = pd.read_csv('data/Date_brazil.csv', index_col='Date', encoding = "ISO-8859-1")
 
 app = dash.Dash('Brazil')
 
